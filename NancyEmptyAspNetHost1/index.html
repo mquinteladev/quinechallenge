@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <input id="input"  type="text"/>
+    <button id="btn">Update title</button>
+
+</body>
+</html>
+
+<script>
+$(document).ready(function(){
+    $("#btn").click(function(){
+        document.title = $("#input").val();
+    });
+});
+</script>
