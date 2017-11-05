@@ -19,9 +19,14 @@ namespace NancySelfHost
                 });
 
 
-                Get("/test", _ =>
+                Get("/quinev1", _ =>
                 {
-                    return Response.AsFile("HTMLPage1.html", "text/html");
+                    return Response.AsFile("quinev1.html", "text/html");
+                });
+
+                Get("/quinetestv1", _ =>
+                {
+                    return Response.AsFile("quinetestv1.html", "text/html");
                 });
 
             }
